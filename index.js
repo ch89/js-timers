@@ -1,4 +1,4 @@
-module.exports = class Timer {
+class Timer {
 	constructor(callback, delay, repeatCount = 0) {
 		this.callback = callback;
 		this.delay = delay;
@@ -31,3 +31,5 @@ module.exports = class Timer {
 		}
 	}
 }
+
+module.exports = Timer;
